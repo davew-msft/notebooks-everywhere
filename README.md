@@ -73,5 +73,16 @@ show patterns of data with a graph (need a good example)
 
 can you run the notebook in batch mode?  
 
+## Tells a story example
+
+[Model Explainability Example](model_explainability/readme.md)
 
 
+this is a great example for model explainability and "tells a story"
+
+https://github.com/microsoft/MLOps/tree/master/examples/explainability
+move this area to this repo 
+
+Let's build a model to help HR figure out better ways to retain employees!
+
+train-deploy-explainer.ipynb
