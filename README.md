@@ -81,8 +81,16 @@ can you run the notebook in batch mode?
 this is a great example for model explainability and "tells a story"
 
 https://github.com/microsoft/MLOps/tree/master/examples/explainability
-move this area to this repo 
-
+move this area to this repo (done)
+video demo is near the end:  https://mybuild.techcommunity.microsoft.com/sessions/77150?source=sessions
 Let's build a model to help HR figure out better ways to retain employees!
 
 train-deploy-explainer.ipynb
+
+
+[Machine Learning Tutorial Notebook](ML-tutorial/Machine-Learning-Tutorial.ipynb).  **Does this display in gitlab/gh?**
+
+Discuss *magics*
+Save data with notebook or without
+
+
