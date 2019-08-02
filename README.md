@@ -202,3 +202,5 @@ You can use Docker to allow multiple users to use the same notebook/data without
 
 with increased computation power allows more complex models.  the accuracy goes up and the interpretability goes down dramatically.  
 
+[**Here is a really cool example using Q# (Microsoft's Quantum Computing Language)**](q-sharp/README.md)
+
