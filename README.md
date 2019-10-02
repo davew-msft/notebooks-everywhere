@@ -1,23 +1,16 @@
 # Notebooks Everywhere:  Using Jupyter and Notebooks for your day-to-day tasks
 
-## Abstract
+* clone this repo:  `https://github.com/davew-msft/notebooks-everywhere`
+* this repo is available in [Azure Notebooks](https://notebooks.azure.com/davew/projects/notebooks-everywhere)
 
-Notebooks (think "Jupyter") aren't just for data scientists anymore. They are quickly becoming the de facto way to write code. Any code. In this session we'll show you a few different ways to integrate notebook-thinking into your daily life. From SQL Server DBAs to Azure Administrators, there's a notebook use case for everyone. No Powerpoint in this session, we'll even use notebooks to build interactive, data-driven presentations. We'll even show you how Deep Learning works under-the-covers using interactive notebooks. 
+## Agenda 
 
-## Presentation
+* [Link to Presentation Notebook in RISE format](presentation.ipynb)
+* [Interface Walkthrough](01_interface.ipynb)
 
-[Link to Presentation Notebook](TODO.md)
+need to pull down the ipynb files
 
-This presentation is done in RISE.  
 
-History
-* originally developed as part of the **IPython** project (interactive, online access to Python).  
-* the R folks kinda liked it and Jupyter was spun off.  
-
-What is Jupyter?
-
-* Julia, python, R
-* also supports tons of other languages like SQL and scala
 
 screenshot of the tree
 
@@ -27,68 +20,8 @@ now do JupyterLab
 
 ### Full Blown Anaconda on Windows or Mac
 
-Jupyter requires Python to be installed.  This is a fine solution but Anaconda is bloated and seems like overkill if you aren't a day-to-day python programmer.  Getting Python working reliably on Windows with `virtualenv`, etc is also a bit difficult and leads to "it works on my machine" mentalities.  Seems like there should be a better way.  
-
-ipynb files
-
-* these are JSON files and are barely human-readable.  
-* they can also be difficult to version control using git.  
-* this is why notebooks and notebook servers have the concept of "save and checkpoint".  You can roll back to a given checkpoint (`Revert to Checkpoint`)
-* also consider judicious use of the `duplicate` option.  
-
-There currently is no built-in "commit and push to git" option. 
-
-* most notebook server implementations will allow you to clone/pull from git servers (github)
-* but nothing *built-in* allows you to commit to git.  Instead you need to `Download as` and likely choose ipynb (there are other options).  
 
 
-## The Execution Environment
-
-Play with the interface on your own, it's intuitive.  Or, choose Help|Uswer Interface Tour.  
-
-Here are some interesting tidbits:
-
-* Split Cell:  Split a cell from the current cursor position
-* Merge Cell Above:  merge the current cell with the one above. 
-* Run All, Run All Above, Run All Below, etc:  this is useful when you want to save time or made radical changes and need to clear the execution cache.  
-
-### Keyboard Shortcuts
-
-See Help|Keyboard Shortcuts for the complete list.  These are helpful to commit to memory immediately:  
-
-### Saving Output with Code
-
-A new cell will have empty braces next to each code block.  Once the cell is run the braces will be filled with the cell number, and the output of the cells is appended to the bottom of each cell.  The ipynb file will save the output for you automatically or if you checkpoint.  
-
-This is usually what you want, but not always.  Cell|All Output|Clear will eliminate the output if you want to share your notebook code but NOT your data/results/output.  
-
-
-minimalist
-You can see code, comments, and results together.  Comments are not traditional code comments, rather, more like the author/programming is trying to engage the reader with narrative prose, images, videos, visualizations, and anything else that helps "sell" the concept to the reader.  
-
-don't think in a linear fashion 
-the documents can be shared
-the complete and reproducible record of the computations *and the thought processes that went into the decisions* are recorded for posterity.  
-enables a much more collaborative experience
-
-computational narrative
-you want to communicate a story based on data and results
-
-OSS
-REPL
-    literate computing (Donald Knuth):  a program's logic should be explained in a natural language interspersed with traditional source code, that can be compiled and tells a story.  
-    comments can be in HTML, Latex, or md
-web application to share your code
-geared more toward data projects, epecially data science projects
-simulations (show an example)
-
-notebook files are ipynb 
-    HTML-based
-    based on the ipython REPL shell (code blocks are run in individual cells and can be modified and rerun as you "learn" your problem)
-    but can be exported in various formats 
-    shared python notebooks allow you to share not just code but the entire "python session"
-    ie, save the data (or results) with the prose and code
-    
 
 notebooks.azure.com
 ADS
@@ -182,7 +115,17 @@ def myfunction(x):
 
 interact(myfunction, x=('black','white'));
 
+## Scheduling 
 
+Netflix created Papermill to do this.  
+
+https://papermill.readthedocs.io/en/latest/index.html
+
+https://github.com/nteract/papermill
+
+## SQL
+
+https://hub.gke.mybinder.org/user/mariasql-notebooks-2bwuqvzh/notebooks/sqlserver_sql%20magics.ipynb
 
 ## Multiuser and Sharing Options
 
