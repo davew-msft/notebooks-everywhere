@@ -7,9 +7,7 @@
 
 * [Link to Presentation Notebook in RISE format](presentation.ipynb)
 * [Interface Walkthrough](01_interface.ipynb)
-
-need to pull down the ipynb files
-
+* [Demo: Electric Vehicle Routing and Reachable Range with Azure Maps](02_ElectricVehicle.ipynb)
 
 
 screenshot of the tree
