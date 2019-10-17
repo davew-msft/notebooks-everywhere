@@ -9,9 +9,6 @@
 * [Interface Walkthrough](01_interface.ipynb)
 * [Demo: Electric Vehicle Routing and Reachable Range with Azure Maps](02_ElectricVehicle.ipynb)
 
-need to pull down the ipynb files
-
-
 
 screenshot of the tree
 
