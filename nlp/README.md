@@ -1,0 +1,1 @@
+See the files and labs in this folder.  Notes:  uses CNTK but methods should be transferable to almost anything else.  
