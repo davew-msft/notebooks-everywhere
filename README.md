@@ -1,7 +1,6 @@
 # Notebooks Everywhere:  Using Jupyter and Notebooks for your day-to-day tasks
 
 * clone this repo:  `https://github.com/davew-msft/notebooks-everywhere`
-* this repo is available in [Azure Notebooks](https://notebooks.azure.com/davew/projects/notebooks-everywhere)
 
 ## Agenda 
 
